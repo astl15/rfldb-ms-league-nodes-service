@@ -1,0 +1,7 @@
+server:  port: 8081
+spring:
+  cloud:
+    config:
+      uri: http://cloud-config-server:8888, http://localhost:8888
+  profiles:
+    active: dev
